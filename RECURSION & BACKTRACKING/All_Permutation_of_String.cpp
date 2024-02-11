@@ -22,6 +22,8 @@ void printPermutation(vector<int> v, vector<int> &ds, vector<vector<int>> &ans, 
         }
     }
 }
+/*T.C O(N! * N)
+S.C O(2N)*/
 
 // optimized solution without extra space
 // idea is to consider every element at idx by swapping values
@@ -42,6 +44,8 @@ void printPermutation2(vector<int> v, int idx, int n)
         printPermutation2(v, idx + 1, n);
     }
 }
+/*T.C O(N! * N)
+S.C O(N) //for call stack of recursion*/
 
 int main()
 {

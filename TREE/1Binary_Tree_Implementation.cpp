@@ -97,6 +97,8 @@ void print(vector<vector<int>> ans)
         cout << endl;
     }
 }
+/*T.C O(N)
+S.C O(N)*/
 int main()
 {
     Node *root = new Node(10);

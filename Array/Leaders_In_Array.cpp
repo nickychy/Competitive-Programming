@@ -11,7 +11,7 @@ void leaders_in_Array(vector<int> &v)
         if (v[i] > curr_max)
         {
             curr_max = v[i];
-            ans.psh_back(v[i]);
+            ans.push_back(v[i]);
         }
     }
     for (auto x : ans)
